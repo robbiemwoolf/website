@@ -1,0 +1,6 @@
+.header {
+    height: 200px;
+    background-color: rgb(202, 27, 27);
+    background-image: url("../images/sac.jpg");
+    background-repeat: round;
+}
