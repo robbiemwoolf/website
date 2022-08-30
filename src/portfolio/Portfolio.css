@@ -3,5 +3,6 @@
 }
 
 .card {
+    height: 100px;
     max-width: 50%;
 }

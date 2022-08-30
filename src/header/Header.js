@@ -38,7 +38,7 @@ export default function Header() {
                 </div>
                 <div className='col-md-8'>
                 <div className='card-body'>
-                    <h5 className='card-title'>Hi, I am Robbie Woolf</h5>
+                    <h5 className='card-title'>Hi, I am <text className='special text-bg'>Robbie Woolf</text></h5>
                     <p className='card-text'>Full-Stack Developer</p>
                     <div className='row'>
                         <div className='logo-links mx-2'>
