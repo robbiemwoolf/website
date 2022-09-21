@@ -3,8 +3,6 @@ import './Header.css'
 export default function Header() {
 
     const handleClick1 = event => {
-        console.log(event.target)
-        console.log('logo clicked')
         const link='https://www.linkedin.com/in/robbiewoolf/'
         const win = window.open(link, '_blank')
         if (win) {
@@ -17,8 +15,6 @@ export default function Header() {
     }
 
     const handleClick2 = event => {
-        console.log(event.target)
-        console.log('logo clicked')
         const link='https://github.com/robbiemwoolf'
         const win = window.open(link, '_blank')
         if (win) {
@@ -31,7 +27,7 @@ export default function Header() {
     }
     
     return (
-        <div className='card mb-3'>
+        <div className='card mb-4'>
             <div className='row g-0'>
                 <div className='col-md-4'>
                 <img src='images/woolf-logo.png' className='img-fluid rounded-start' alt='...' />
