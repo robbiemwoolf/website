@@ -29,10 +29,10 @@ export default function Header() {
     return (
         <div className='card mb-4'>
             <div className='row g-0'>
-                <div className='col-md-4'>
+                <div className='col-md-3'>
                 <img src='images/woolf-logo.png' className='img-fluid rounded-start' alt='...' />
                 </div>
-                <div className='col-md-8'>
+                <div className='col-md-4'>
                 <div className='card-body'>
                     <h5 className='card-title'>Hi, I am <text className='special text-bg'>Robbie Woolf</text></h5>
                     <p className='card-text'>Full-Stack Developer</p>
@@ -45,6 +45,9 @@ export default function Header() {
                         </div>
                     </div>
                 </div>
+                </div>
+                <div className='col-md-5'>
+                <img src='images/train.jpg' className='img-fluid rounded-start' alt='...' />
                 </div>
             </div>
         </div>
