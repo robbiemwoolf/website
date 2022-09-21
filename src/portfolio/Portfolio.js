@@ -4,14 +4,14 @@ export default function Portfolio() {
         <div className='card-group'>
         <div className='card'>
           <div className='m-4'>
-           <img className='card-img-top rounded-4' src='images/grubdash.png' alt='GrubDash Home' />
+           <img className='card-img-top rounded-4' src='images/reservation.png' alt='GrubDash Home' />
           </div>
           <div className='card-body'>
-            <h5 className='card-title'>GrubDash Backend</h5>
-            <a className='' href='https://grubdash-backend-rw.herokuapp.com/dishes'><i className='bi bi-eye'></i></a>
-            <a className='' href='https://github.com/robbiemwoolf/grubdash'><i class='bi bi-github mx-2'></i></a>
-            <p className='card-text'>Thinkful project meant to showcase ability to build a RESTful API with complex validation.</p>
-            <p className='card-text'><small className=''>JS | React | Express | Knex | HTML | CSS</small></p>
+            <h5 className='card-title'>Restaurant Reservation System</h5>
+            <a className='' href='https://reservation-client-rw.herokuapp.com/dashboard'><i className='bi bi-eye'></i></a>
+            <a className='' href='https://github.com/robbiemwoolf/restaurant-reservation'><i class='bi bi-github mx-2'></i></a>
+            <p className='card-text'>Full-stack application for restaurant personnel to create, update, view, and delete reservations, as well as seat them at various tables within the restaurant.</p>
+            <p className='card-text'><small className=''>Node | React | Express | Knex | Postgres | Bootstrap5 | JS | HTML | CSS | RESTful API</small></p>
           </div>
         </div>
         <div className='card'>
@@ -23,7 +23,7 @@ export default function Portfolio() {
             <a className='' href='https://we-love-movies-backend-rw.herokuapp.com/movies'><i className='bi bi-eye'></i></a>
             <a className='' href='https://github.com/robbiemwoolf/we-love-movies'><i class='bi bi-github mx-2'></i></a>
             <p className='card-text'>Thinkful project meant to practice building an API following RESTful design principles. Followed a inside-out development workflow.</p>
-            <p className='card-text'><small className=''>JS | Express | Knex | Jest | React</small></p>
+            <p className='card-text'><small className=''>JS | Express | Knex | Jest | React </small></p>
           </div>
         </div>
       </div>
