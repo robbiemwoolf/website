@@ -5,8 +5,8 @@ export default function Portfolio() {
         <div className='card mx-2'>
             <div className='px-3 pt-3'>
                 <h4 className='card-title special'>Restaurant Reservation System</h4>
-                <a className='link-light' href='https://reservation-client-rw.herokuapp.com/dashboard'><i className='bi bi-eye'></i></a>
-                <a className='link-light' href='https://github.com/robbiemwoolf/restaurant-reservation'><i class='bi bi-github mx-2'></i></a>
+                <a className='link-light' href='https://reservation-client-rw.herokuapp.com/dashboard' title='Live Site'><i className='bi bi-eye'></i></a>
+                <a className='link-light' href='https://github.com/robbiemwoolf/restaurant-reservation' title='GitHub Repository'><i class='bi bi-github mx-2'></i></a>
             </div>
             <div className='m-2'>
                 <img className='card-img-top rounded-4' src='images/reservation.png' alt='GrubDash Home' />
@@ -19,8 +19,8 @@ export default function Portfolio() {
         <div className='card mx-2'>
             <div className='px-3 pt-3'>
                 <h4 className='card-title special'>We Love Movies</h4>
-                <a className='link-light' href='https://we-love-movies-backend-rw.herokuapp.com/movies'><i className='bi bi-eye'></i></a>
-                <a className='link-light' href='https://github.com/robbiemwoolf/we-love-movies'><i class='bi bi-github mx-2'></i></a>
+                <a className='link-light' href='https://we-love-movies-backend-rw.herokuapp.com/movies' title='Live Site'><i className='bi bi-eye'></i></a>
+                <a className='link-light' href='https://github.com/robbiemwoolf/we-love-movies' title='GitHub Repository'><i class='bi bi-github mx-2'></i></a>
             </div>
           <div className='m-2'>
             <img className='card-img-top rounded-4' src='images/welovemovies.png' alt='We Love Movies Home' />
@@ -35,8 +35,8 @@ export default function Portfolio() {
         <div className='card mx-2'>
             <div className='px-3 pt-3'>
                 <h4 className='card-title special'>Taskmaster</h4>
-                <a className='link-light' href='https://taskmaster-client-rw.herokuapp.com/'><i className='bi bi-eye'></i></a>
-                <a className='link-light' href='https://github.com/robbiemwoolf/taskmaster'><i class='bi bi-github mx-2'></i></a>
+                <a className='link-light' href='https://taskmaster-client-rw.herokuapp.com/' title='Live Site'><i className='bi bi-eye'></i></a>
+                <a className='link-light' href='https://github.com/robbiemwoolf/taskmaster' title='GitHub Repository'><i class='bi bi-github mx-2'></i></a>
             </div>
             <div className='m-2'>
                 <img className='card-img-top rounded-4' src='images/taskmaster.png' alt='Taskmaster Home' />
@@ -49,8 +49,8 @@ export default function Portfolio() {
         <div className='card mx-2'>
             <div className='px-3 pt-3'>
             <h4 className='card-title special'>Study Tool</h4>
-                <a className='link-light' href='https://flashcard-project-ten.vercel.app/' ><i className='bi bi-eye'></i></a>
-                <a className='link-light' href='https://github.com/robbiemwoolf/flashcard-project'><i class='bi bi-github mx-2'></i></a>
+                <a className='link-light' href='https://flashcard-project-ten.vercel.app/' title='Live Site'><i className='bi bi-eye'></i></a>
+                <a className='link-light' href='https://github.com/robbiemwoolf/flashcard-project' title='GitHub Repository'><i class='bi bi-github mx-2'></i></a>
             </div>
             <div className='m-2'>
                 <img className='card-img-top rounded-4' src='images/flashcardomatic.png' alt='Flashcard App Alert Home' />
