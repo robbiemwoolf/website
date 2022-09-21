@@ -4,7 +4,7 @@ export default function Portfolio() {
         <div className='card-group m-2'>
         <div className='card mx-2'>
             <div className='px-3 pt-3'>
-                <h5 className='card-title special'>Restaurant Reservation System</h5>
+                <h4 className='card-title special'>Restaurant Reservation System</h4>
                 <a className='link-light' href='https://reservation-client-rw.herokuapp.com/dashboard'><i className='bi bi-eye'></i></a>
                 <a className='link-light' href='https://github.com/robbiemwoolf/restaurant-reservation'><i class='bi bi-github mx-2'></i></a>
             </div>
@@ -18,7 +18,7 @@ export default function Portfolio() {
         </div>
         <div className='card mx-2'>
             <div className='px-3 pt-3'>
-                <h5 className='card-title special'>We Love Movies</h5>
+                <h4 className='card-title special'>We Love Movies</h4>
                 <a className='link-light' href='https://we-love-movies-backend-rw.herokuapp.com/movies'><i className='bi bi-eye'></i></a>
                 <a className='link-light' href='https://github.com/robbiemwoolf/we-love-movies'><i class='bi bi-github mx-2'></i></a>
             </div>
@@ -34,7 +34,7 @@ export default function Portfolio() {
       <div className='card-group m-2 pb-4'>
         <div className='card mx-2'>
             <div className='px-3 pt-3'>
-                <h5 className='card-title special'>Taskmaster</h5>
+                <h4 className='card-title special'>Taskmaster</h4>
                 <a className='link-light' href='https://taskmaster-client-rw.herokuapp.com/'><i className='bi bi-eye'></i></a>
                 <a className='link-light' href='https://github.com/robbiemwoolf/taskmaster'><i class='bi bi-github mx-2'></i></a>
             </div>
@@ -48,7 +48,7 @@ export default function Portfolio() {
         </div>
         <div className='card mx-2'>
             <div className='px-3 pt-3'>
-            <h5 className='card-title special'>Study Tool</h5>
+            <h4 className='card-title special'>Study Tool</h4>
                 <a className='link-light' href='https://flashcard-project-ten.vercel.app/' ><i className='bi bi-eye'></i></a>
                 <a className='link-light' href='https://github.com/robbiemwoolf/flashcard-project'><i class='bi bi-github mx-2'></i></a>
             </div>
