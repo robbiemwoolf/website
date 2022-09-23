@@ -30,7 +30,7 @@ export default function Header() {
         <div className='card mb-4'>
             <div className='row g-0'>
                 <div className='col-md-3'>
-                <img src='images/woolf-logo.png' className='img-fluid rounded-start' alt='...' />
+                <img src='images/woolf-logo.png' className='img-fluid rounded-start' alt="" />
                 </div>
                 <div className='col-md-4'>
                 <div className='card-body'>
@@ -38,10 +38,10 @@ export default function Header() {
                     <p className='card-text'>Full-Stack Developer</p>
                     <div className='row'>
                         <div className='logo-links mx-2'>
-                            <img src='images/linkedinlogo.png'  alt='LinkedIn' onClick={handleClick1} className='logo-links'/>
+                            <img src='images/linkedinlogo.png'  alt='LinkedIn' onClick={handleClick1} className='logo-links' title='LinkedIn Profile' />
                         </div>
                         <div className='logo-links'>
-                            <img src='images/githublogo.png' alt='GitHub' onClick={handleClick2} className='logo-links'/>
+                            <img src='images/githublogo.png' alt='GitHub' onClick={handleClick2} className='logo-links'title='GitHub Profile' />
                         </div>
                     </div>
                 </div>
