@@ -44,11 +44,11 @@ export default function Portfolio() {
     ]
     
     const info = projects.map((project) => {
-        return <ProjectCard project={project} />
+        return <ProjectCard key={project.title} project={project} />
     })
 
     const info2 = projects2.map((project) => {
-        return <ProjectCard project={project} />
+        return <ProjectCard key={project.title} project={project} />
     })
 
     return (
