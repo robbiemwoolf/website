@@ -32,9 +32,9 @@ export default function Header() {
                 <div className='col-md-3'>
                 <img src='images/woolf-logo.png' className='img-fluid rounded-start' alt="" />
                 </div>
-                <div className='col-md-4'>
+                <div className='col-md-5'>
                 <div className='card-body'>
-                    <h5 className='card-title'>Hi, I am <text className='special text-bg'>Robbie Woolf</text></h5>
+                    <h5 className='card-title'>Hi, I am <span className='special'>Robbie Woolf</span></h5>
                     <p className='card-text'>Full-Stack Developer</p>
                     <div className='row'>
                         <div className='logo-links mx-2'>
@@ -46,7 +46,7 @@ export default function Header() {
                     </div>
                 </div>
                 </div>
-                <div className='col-md-5'>
+                <div className='col-md-4'>
                 <img src='images/train.png' className='img-fluid rounded-start' alt='...' />
                 </div>
             </div>
