@@ -47,7 +47,7 @@ export default function Header() {
                 </div>
                 </div>
                 <div className='col-md-5'>
-                <img src='images/train.jpg' className='img-fluid rounded-start' alt='...' />
+                <img src='images/train.png' className='img-fluid rounded-start' alt='...' />
                 </div>
             </div>
         </div>
