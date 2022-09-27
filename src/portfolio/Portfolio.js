@@ -25,8 +25,8 @@ export default function Portfolio() {
     const projects2 = [
         {
             title: 'Taskmaster',
-            site: 'https://taskmaster-client-rw.herokuapp.com/',
-            gitHub: 'https://github.com/robbiemwoolf/taskmaster',
+            site: 'https://vercel.com/robbiemwoolf/taskmaster-rw',
+            gitHub: 'https://github.com/robbiemwoolf/taskmaster', 
             img: 'images/taskmaster.png',
             alt: 'Taskmaster Home',
             description: `This is a personal task tracker app with the key feature being the ability to see what tasks you completed on a given day, week, or month. Many people tend to focus on what they didn't do, but this app celebrates how much you do accomplish.`,
