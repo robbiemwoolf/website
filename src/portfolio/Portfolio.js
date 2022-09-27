@@ -25,7 +25,7 @@ export default function Portfolio() {
     const projects2 = [
         {
             title: 'Taskmaster',
-            site: 'https://vercel.com/robbiemwoolf/taskmaster-rw',
+            site: 'https://taskmaster-rw.vercel.app/',
             gitHub: 'https://github.com/robbiemwoolf/taskmaster', 
             img: 'images/taskmaster.png',
             alt: 'Taskmaster Home',
