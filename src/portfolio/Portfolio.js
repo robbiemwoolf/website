@@ -13,7 +13,7 @@ export default function Portfolio() {
         },
         {
             title: 'We Love Movies',
-            site: 'https://we-love-movies-backend-rw.herokuapp.com/movies',
+            site: 'https://we-love-movies-rw.vercel.app/',
             github: 'https://github.com/robbiemwoolf/we-love-movies',
             img: 'images/welovemovies.png',
             alt: 'We Love Movies Home',
