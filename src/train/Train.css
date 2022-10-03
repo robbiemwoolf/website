@@ -1,6 +1,5 @@
 .hr {
     height: 152px;
     opacity: 50%;
-    background-image: url('../../public/images/train-hr.png');
     max-width: 100vw;
 }
