@@ -13,7 +13,7 @@ export default function Portfolio() {
         },
         {
             title: 'We Love Movies',
-            site: 'https://we-love-movies-rw.vercel.app/',
+            site: 'https://we-love-movies-rw.vercel.app',
             github: 'https://github.com/robbiemwoolf/we-love-movies',
             img: 'images/welovemovies.png',
             alt: 'We Love Movies Home',
@@ -25,7 +25,7 @@ export default function Portfolio() {
     const projects2 = [
         {
             title: 'Taskmaster',
-            site: 'https://taskmaster-rw.vercel.app/',
+            site: 'https://taskmaster-rw.vercel.app',
             gitHub: 'https://github.com/robbiemwoolf/taskmaster', 
             img: 'images/taskmaster.png',
             alt: 'Taskmaster Home',
