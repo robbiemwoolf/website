@@ -1,70 +1,10 @@
 import './Header.css'
 
-export default function Header() {
-
-    const handleClick1 = event => {
-        const link='https://www.linkedin.com/in/robbiewoolf/'
-        const win = window.open(link, '_blank')
-        if (win) {
-            // browser has allowed it to be opened
-            win.focus()
-        } else {
-            // browser has blocked it
-            alert('Please allow popups for this website')
-        }
-    }
-
-    const handleClick2 = event => {
-        const link='https://github.com/robbiemwoolf'
-        const win = window.open(link, '_blank')
-        if (win) {
-            // browser has allowed it to be opened
-            win.focus()
-        } else {
-            // browser has blocked it
-            alert('Please allow popups for this website')
-        }
-    }
-
-    const handleClick3 = event => {
-        const link='https://docs.google.com/document/d/1-wGFZkW04AqZMVYcEb2viZ42Yt3O885TyAj4kvqacaw/edit?usp=sharing'
-        const win = window.open(link, '_blank')
-        if (win) {
-            // browser has allowed it to be opened
-            win.focus()
-        } else {
-            // browser has blocked it
-            alert('Please allow popups for this website')
-        }
-    }
-    
+export default function Header() {    
     return (
-        <div className='card mb-4'>
-            <div className='row g-0'>
-                <div className='col-md-3'>
-                    <img src='images/woolf-logo.png' className='img-fluid rounded-start' alt="" />
-                </div>
-                <div className='col-md-5'>
-                    <div className='card-body'>
-                        <h5 className='card-title'>Hi, I am <span className='special'>Robbie Woolf</span></h5>
-                        <p className='card-text'>Full-Stack Developer</p>
-                        <div className='row'>
-                            <div className='logo-links mx-2'>
-                                <img src='images/linkedinlogo.png'  alt='LinkedIn' onClick={handleClick1} className='logo-links' title='LinkedIn Profile' />
-                            </div>
-                            <div className='logo-links mx-2'>
-                                <img src='images/githublogo.png' alt='GitHub' onClick={handleClick2} className='logo-links' title='GitHub Profile' />
-                            </div>
-                            <div className='logo-links'>
-                                <img src='images/resumelogo.png' alt='Resume' onClick={handleClick3} className='logo-links' title='Resume' />
-                            </div>
-                    </div>
-                </div>
-                </div>
-                <div className='col-md-4'>
-                    <img src='images/train.png' className='img-fluid rounded-start' alt='...' />
-                </div>
+            <div className='text-center text-white py-4'>
+                <h1 className=''>Robbie Woolf</h1>
+                <p className=''>from welding trains to developing full stack applications</p>
             </div>
-        </div>
     )
 }
