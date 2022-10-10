@@ -70,7 +70,7 @@ export default function Footer() {
                 <img src='images/githublogo.png' alt='GitHub' onClick={handleClick2} className='logo-links' title='GitHub Profile' />
             </div>
             <div className='col-md-3 yellow mx-2'>
-                    <img src='images/glowing_detail_wolf.jpg' className='img-fluid wolf' alt='Resume' onClick={handleClick3} title='Resume'/>
+                    <img src='images/glowing_detail_wolf.png' className='img-fluid wolf' alt='Resume' onClick={handleClick3} title='Resume'/>
             </div>
             <div className='logo-holder mx-2'>
                 <img src='images/contact.png' alt='Contact Info' onClick={handleClick4} className='logo-links' title='(405) 255-7115' />
