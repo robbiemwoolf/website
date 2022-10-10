@@ -63,19 +63,19 @@ export default function Footer() {
     
     return (
         <div className='d-flex justify-content-center align-items-center text-white'>
-            <div className='logo-links mx-2'>
+            <div className='logo-holder mx-2'>
                 <img src='images/linkedinlogo.png'  alt='LinkedIn' onClick={handleClick1} className='logo-links' title='LinkedIn Profile' />
             </div>
-            <div className='logo-links mx-2'>
+            <div className='logo-holder mx-2'>
                 <img src='images/githublogo.png' alt='GitHub' onClick={handleClick2} className='logo-links' title='GitHub Profile' />
             </div>
-            <div className='col-md-3'>
-                    <img src='images/woolf-logo.png' className='img-fluid rounded-start' alt='Resume' onClick={handleClick3} title='Resume'/>
+            <div className='col-md-3 yellow mx-2'>
+                    <img src='images/glowing_detail_wolf.jpg' className='img-fluid wolf' alt='Resume' onClick={handleClick3} title='Resume'/>
             </div>
-            <div className='logo-links mx-2'>
+            <div className='logo-holder mx-2'>
                 <img src='images/contact.png' alt='Contact Info' onClick={handleClick4} className='logo-links' title='(405) 255-7115' />
             </div>
-            <div className='logo-links mx-2'>
+            <div className='logo-holder mx-2'>
                 <img src='images/email.png' alt='Email' onClick={handleClick5} className='logo-links' title='robbiemwoolf@gmail.com' />
             </div>
         </div>
