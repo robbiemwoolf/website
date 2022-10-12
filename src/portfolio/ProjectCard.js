@@ -1,3 +1,5 @@
+import './Portfolio.css'
+
 export default function ProjectCard({project}) {
     return (
         <>
@@ -7,8 +9,8 @@ export default function ProjectCard({project}) {
                 <a className='link-light' href={project.site} title='Live Site'><i className='bi bi-eye'></i></a>
                 <a className='link-light' href={project.github} title='GitHub Repository'><i className='bi bi-github mx-2'></i></a>
             </div>
-            <div className='m-2'>
-                <img className='card-img-top rounded-4' src={project.img} alt={project.alt} />
+            <div className='m-2 filter'>
+                <img className='card-img-top rounded-4 screenshot' src={project.img} alt={project.alt} />
             </div>
             <div className='card-body'>
                 <p className='card-text'>{project.description}</p>
