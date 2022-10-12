@@ -6,7 +6,7 @@ export default function Train() {
     const node = <img src='images/tech-logos/node-logo.png' className='tech-logo' alt='NodeJS' ></img>
     const express = <img src='images/tech-logos/express-logo.png' className='tech-logo' alt='Express' ></img>
     const npm = <img src='images/tech-logos/npm-logo.png' className='tech-logo' alt='npm' ></img>
-    const postgreSQL = <img src='images/tech-logos/PostgreSQL-logo.png' className='tech-logo' alt='PostgreSQL' ></img>
+    const postgreSQL = <img src='images/tech-logos/postgreSQL-logo.png' className='tech-logo' alt='PostgreSQL' ></img>
     const git = <img src='images/tech-logos/git-logo.png' className='tech-logo' alt='Git' ></img>
     const jQuery = <img src='images/tech-logos/jQuery-logo.png' className='tech-logo' alt='jQuery' ></img>
     const HTML = <img src='images/tech-logos/html-logo.png' className='tech-logo' alt='HTML' ></img>
