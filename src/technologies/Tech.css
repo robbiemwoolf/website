@@ -1,0 +1,54 @@
+.hr {
+    height: 152px;
+    position: relative;
+}
+
+.hr::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 700px;
+    height: 100%;
+    opacity: 0.5;
+    background-image: url(../../public/images/train.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.logo-row {
+    width: 90%;
+}
+
+.tech-logo {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+    animation: glow 1.5s infinite alternate;
+}
+
+.tech-logo:hover {
+    animation: none;
+}
+
+@keyframes glow {
+    100% {
+      box-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px rgb(78, 246, 255),
+      0 0 40px rgb(78, 246, 255),
+      0 0 80px rgb(78, 246, 255),
+      0 0 90px rgb(78, 246, 255)     
+    }
+    
+    0% {
+      box-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px rgb(78, 246, 255),
+      0 0 10px rgb(78, 246, 255),
+      0 0 45px rgb(78, 246, 255),
+      0 0 55px rgb(78, 246, 255)    
+    }
+}
