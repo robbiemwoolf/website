@@ -1,6 +1,6 @@
 import './Portfolio.css'
 
-export default function ProjectCard({ card }) {
+export default function ByteCard({ card }) {
     const live = card.site;
     const tools = card.tools;
 
@@ -12,16 +12,15 @@ export default function ProjectCard({ card }) {
                 { live.length > 0 ? (
                 <a className='link-light' href={card.site} title='Live Site'><i className='bi bi-eye'></i></a>
                 ) : null }
-                <a className='link-light' href={card.github} title='GitHub Repository'><i className='bi bi-github'></i></a>
-            </div>
-            <div className='filter'>
-                <img className='screenshot' src={card.img} alt={card.alt} />
+                <a className='link-light' href={card.github} title='GitHub Repository'>
+                    <i className='bi bi-github'></i>
+                </a>
             </div>
             <div className='info'>
-                <p className='text'>{card.description}</p>
-                { tools.length > 0 ? (
-                <small className='tech'>{card.tools}</small>
-                ) : null }
+                <p className='text'>
+                    {card.description}
+                </p>
+                <img className='peak' src={card.img} alt={card.alt} />
             </div>
         </div>
         </>

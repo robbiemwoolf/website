@@ -1,7 +1,8 @@
-import './Tech.css'
+import './Tech.css';
 
 export default function Train() {
-    const js = <img src='images/tech-logos/JavaScript-logo.png' className='tech-logo neonImg glow' alt='JavaScript' ></img>
+
+    const js = <img src='images/tech-logos/JavaScript-logo.png' className='tech-logo glow' alt='JavaScript' ></img>
     const react = <img src='images/tech-logos/react-logo.png' className='tech-logo' alt='React' ></img>
     const node = <img src='images/tech-logos/node-logo.png' className='tech-logo' alt='NodeJS' ></img>
     const express = <img src='images/tech-logos/express-logo.png' className='tech-logo' alt='Express' ></img>
@@ -14,19 +15,17 @@ export default function Train() {
 
 
     return (
-        <div className='d-flex justify-content-center my-4'>
-            <div className='d-flex justify-content-evenly logo-row'>
-                {js}
-                {react}
-                {node}
-                {express}
-                {npm}
-                {postgreSQL}
-                {git}
-                {jQuery}
-                {HTML}
-                {CSS}
-            </div>
+        <div className='banner'>
+            {js}
+            {CSS}
+            {react}
+            {node}
+            {express}
+            {npm}
+            {postgreSQL}
+            {git}
+            {jQuery}
+            {HTML}
         </div>
     )
 }
