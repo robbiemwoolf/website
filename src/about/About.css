@@ -1,0 +1,102 @@
+.main {
+    display: flex;
+    width: min(100%, 1150px);
+    margin-inline: auto;
+    border-radius: 1%;
+}
+
+.background {
+    background-color: rgb(25, 25, 25, 0.3);
+    width: 100%;
+}
+
+.current {
+    display: grid;
+    grid-template-columns: [left] 10% [mid] 80% [right] 10%;
+    width: 50%;
+    border: solid 1px green;
+    margin: 2.5%;
+    border-radius: 1%;
+    min-height: 300px;
+}
+
+.ledge, .redge {
+    border: dotted green;
+    border-width: 0 2px 0 0;
+    display: grid;
+    align-content: space-evenly;
+}
+
+.redge {
+    border-width: 0 0 0 2px;
+}
+
+.mid header {
+    font-family: "current";
+    font-size: 90%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.hole {
+    z-index: 2;
+    margin-inline: auto;
+    width: 12px;
+    height: 12px;
+    border: solid 1px green;
+    border-radius: 50%;
+}
+
+.body {
+    color: var(--clr-7)
+}
+
+.mid .body {
+    margin: 5%;
+}
+
+.bio {
+    display: column;
+    justify-content: flex-end;
+    width:50%;
+    margin: 15px;
+}
+
+.photo {
+    width: 50%;
+    border-radius: 40%;
+    float: right;
+}
+
+.resume {
+    color: white;
+    text-decoration: underline;
+}
+
+.resume:hover {
+    color: green;
+}
+
+.look {
+    opacity: 50%;
+    border-radius: 5%;
+    margin: 10px 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        display: block;
+        width: 85%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .current {
+        width: auto;
+    }
+
+    .bio {
+        width: auto;
+    }
+}

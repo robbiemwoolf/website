@@ -1,7 +1,10 @@
-.name {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.container {
+    display: flex;
 }
 
-.tagline {
-    font-family: Brush Script MT, Brush Script Std, cursive;
+.name {
+    margin: auto;
+    font-family: "astro", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+    font-size: 700%;
 }

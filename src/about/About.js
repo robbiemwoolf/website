@@ -1,19 +1,77 @@
+import './About.css';
+
 export default function About() {
+    const currentBlurb = "Right now I am focusing on a revamp of this personal website. A lot of changes have been made over the past week and I still have a long way to go. Here's a look at what this page use to look like:";
+    const additionalBlurb = 'This new design includes: a more responsive layout; a chance to showcase more of my current projects, both large and small; and a few animations.';
+    const look = <img className='look' src='/images/previous-website.png' alt='previous website design' ></img>;
+    
+    const handleClick = event => {
+        const link='https://docs.google.com/document/d/1-wGFZkW04AqZMVYcEb2viZ42Yt3O885TyAj4kvqacaw/edit?usp=sharing'
+        const win = window.open(link, '_blank')
+        if (win) {
+            // browser has allowed it to be opened
+            win.focus()
+        } else {
+            // browser has blocked it
+            alert('Please allow popups for this website')
+        }
+    }
+
     return (
-        <div className='card mb-3'>
-            <div className='d-flex row g-0 align-items-center'>
-            <div className='col-md-4'>
-                    <img src='images/rob_bird_feet_look_left.jpg' className='img-fluid rounded-start gray' alt='Robbie Woolf' />
+        <div className='background' >
+        <div className='main'>
+            <div className='current'>
+                <div className='ledge'>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
                 </div>
-                <div className='col-md-8'>
-                    <div className='card-body'>
-                        <h5 className='card-title special'>About Me</h5>
-                        <p className='card-text'>Hello. I’m Robbie, and I am a creator. But as most humans do, I started off a destroyer. I played mad scientist every time I took apart microscopes, flashlights, old game consoles, and anything else I could get away with. I ripped open electronics, dug around their insides, and was sometimes kind enough to put them back together. I didn’t have that iconic, mad scientist “It’s alive!” creation moment, however, until a lot later in life. Becoming a welder was rather like the end of my destroyer days and the start of my creator ones. Welding gave me the zeal to rekindle lost childhood passions like drawing and playing guitar, and it at last gave me my iconic mad scientist moment by giving me a passenger-train-sized way in which to build.</p>
-                        <p className='card-text'>My transition into software engineering was almost seamless. My spouse was enrolled in a beginner web development course, and after a week or two of trying my hand at her coursework I was struck with the realization that “I could do this”. Only a short time later and now I’m suddenly building full-stack applications; consuming equal amounts coffee and JavaScript, I am continually increasing my profiency with React, HTML, CSS, API implementation, Node.JS, Express, PostgreSQL, Git, and frameworks like Bootstrap. Outside of my technical competencies, my time as a welder gave me experience with detail-oriented builds, keeping client satisfaction a top priority, and managing large-scale builds and tight deadlines, all of which improved my effectiveness in team collaboration to give me a head start in this new career path of mine.</p>
-                        <p className='card-text'>At the end of the day, though, I’m neither a welder nor a software engineer. I’m just Robbie Woolf—hobbies-enthusiast, dog parent of three, environmentalist, horror-genre fanatic, and spicy food devotee.</p>
+                <div className='mid'>
+                    <header>currently coding</header>
+                    <p className='body'>
+                        {currentBlurb}
+                        {look}
+                        {additionalBlurb}
+                    </p>
+                </div>
+                <div className='redge'>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                    <div className='hole'></div>
+                </div>
+            </div>
+            <div className='bio'>
+                <img src='images/rob_sqr_bird_feet_look_left.jpg' className='photo' alt='Robbie Woolf' />
+                <div className='about-body'>
+                    <header>Hi. I’m Robbie</header>
+                    <div className='body'>
+                        <p className=''>And I develop full stack web applications utilizing Javascript, CSS, and HTML.</p>
+                        <p className=''>I am continually increasing my profiency with CSS, React, NodeJS, HTML, API implementation, Express, PostgreSQL, Git, and frameworks like Bootstrap. Outside of these technical competencies, my prior career as a welder gave me experience with detail-oriented builds, keeping client satisfaction a top priority, and managing large-scale projects and tight deadlines, all of which improved my effectiveness in team collaboration to give me a head start in this new career path of mine.</p>
+                        <p className=''>As an advocate for interpersonal community building and awesome websites, I would love to help you with your next project. <span className='resume' alt='Resume' onClick={handleClick} title='Resume'>Reach out!</span></p>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     ) 
 }

@@ -1,13 +1,38 @@
-.App {
-    background-image: url('../public/images/welding-background.jpg');
+:root {
+    --clr-1: #060906;
+    --clr-2: #383807;
+    --clr-3: rgb(2, 104, 2);
+    --clr-4: rgb(153, 211, 29);
+    --clr-5: rgb(245, 236, 68);
+    --clr-6: rgb(143, 140, 42);
+    --clr-7: rgb(227, 227, 189);
 }
 
-.special {
-    color: rgb(0, 128, 225);
+@font-face {
+    font-family: "digital";
+    font-weight: 500;
+    src: local("Orbitron"),
+        url("./fonts/Orbitron.ttf") format("truetype");
 }
 
-.card {
-    color: white;
-    background-color: rgb(25, 25, 25, 0.4);
-    width: 100%;
+@font-face {
+    font-family: "astro";
+    src: local("ASTRII__"),
+        url("./fonts/ASTRII__.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "current";
+    src: local("AGoblinAppears-o2aV"),
+        url("./fonts/AGoblinAppears-o2aV.ttf") format("truetype");
+}
+
+body {
+    background: #000000;
+}
+
+header {
+    color: green;
+    font-family: "digital";
+    font-size: 150%;
 }
