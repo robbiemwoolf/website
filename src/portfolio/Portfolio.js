@@ -22,15 +22,15 @@ export default function Portfolio() {
             description: 'Full-stack application for restaurant personnel to create, update, view, and delete reservations, as well as seat them at various tables within the restaurant.',
             tools: 'Node | React | Express | Knex | Postgres | Bootstrap5 | JS | HTML | CSS | RESTful API'
         },
-        {
-            title: 'We Love Movies',
-            site: 'https://we-love-movies-rw.vercel.app',
-            github: 'https://github.com/robbiemwoolf/we-love-movies',
-            img: 'images/welovemovies.png',
-            alt: 'We Love Movies Home',
-            description: 'Thinkful project meant to practice building an API following RESTful design principles. Followed a inside-out development workflow.',
-            tools: 'JS | Express | Knex | Jest | React'
-        },
+        // {
+        //     title: 'We Love Movies',
+        //     site: 'https://we-love-movies-rw.vercel.app',
+        //     github: 'https://github.com/robbiemwoolf/we-love-movies',
+        //     img: 'images/welovemovies.png',
+        //     alt: 'We Love Movies Home',
+        //     description: 'Thinkful project meant to practice building an API following RESTful design principles. Followed a inside-out development workflow.',
+        //     tools: 'JS | Express | Knex | Jest | React'
+        // },
         {
             title: 'Study Tool',
             site: 'https://flashcard-project-ten.vercel.app/',
@@ -61,15 +61,15 @@ export default function Portfolio() {
             description: `This is a personal task tracker app with the key feature being the ability to see what tasks you completed on a given day, week, or month. Many people tend to focus on what they didn't do, but this app celebrates how much you do accomplish.`,
             tools: ''//'JS | React | Express | Knex | Bootstrap | CSS'
         },
-        {
-            title: 'Twisty',
-            site: '',
-            gitHub: 'https://github.com/robbiemwoolf/twisty', 
-            img: 'images/twisty.png',
-            alt: 'Twisty screenshot',
-            description: `A simple spinner application meant to be used with the classic Twister play mat. I used an infinite animation loop that pauses on hover to determine the color and body part.`,
-            tools: ''//'JS | React | CSS'
-        }
+        // {
+        //     title: 'Twisty',
+        //     site: '',
+        //     gitHub: 'https://github.com/robbiemwoolf/twisty', 
+        //     img: 'images/twisty.png',
+        //     alt: 'Twisty screenshot',
+        //     description: `A simple spinner application meant to be used with the classic Twister play mat. I used an infinite animation loop that pauses on hover to determine the color and body part.`,
+        //     tools: ''//'JS | React | CSS'
+        // }
     ]
     
     const projectCards = projects.map((card) => {
