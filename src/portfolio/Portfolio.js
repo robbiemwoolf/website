@@ -6,7 +6,7 @@ export default function Portfolio() {
     const projects = [
         { 
             title: 'Restaurant Reservation System',
-            site: 'https://reservation-client-rw.herokuapp.com/dashboard',
+            site: 'https://restaurant-reservatoin-rw-client.onrender.com/dashboard',
             github: 'https://github.com/robbiemwoolf/restaurant-reservation',
             img: 'images/reservation.png',
             alt: 'GrubDash Home',
