@@ -2,16 +2,7 @@ import ProjectCard from "./ProjectCard";
 import ByteCard from "./ByteCard";
 
 export default function Portfolio() {
-    // const js = <img src='images/tech-logos/JavaScript-logo.png' className='tech-logo neonImg glow' alt='JavaScript' ></img>
-    // const react = <img src='images/tech-logos/react-logo.png' className='tech-logo' alt='React' ></img>
-    // const node = <img src='images/tech-logos/node-logo.png' className='tech-logo' alt='NodeJS' ></img>
-    // const express = <img src='images/tech-logos/express-logo.png' className='tech-logo' alt='Express' ></img>
-    // const npm = <img src='images/tech-logos/npm-logo.png' className='tech-logo' alt='npm' ></img>
-    // const postgreSQL = <img src='images/tech-logos/PostgreSQL-logo.png' className='tech-logo' alt='PostgreSQL' ></img>
-    // const git = <img src='images/tech-logos/git-logo.png' className='tech-logo' alt='Git' ></img>
-    // const jQuery = <img src='images/tech-logos/jQuery-logo.png' className='tech-logo' alt='jQuery' ></img>
-    // const HTML = <img src='images/tech-logos/html-logo.png' className='tech-logo' alt='HTML' ></img>
-    // const CSS = <img src='images/tech-logos/css-logo.jpg' className='tech-logo' alt='CSS' ></img>
+
     const projects = [
         { 
             title: 'Restaurant Reservation System',
@@ -34,7 +25,7 @@ export default function Portfolio() {
         {
             title: 'Study Tool',
             site: 'https://flashcard-project-ten.vercel.app/',
-            gitHub: 'https://github.com/robbiemwoolf/flashcard-project',
+            github: 'https://github.com/robbiemwoolf/flashcard-project',
             img: 'images/flashcardomatic.png',
             alt: 'Flashcard App Alert Home',
             description: 'Thinkful project meant to test React and API knowledge. This application allows users to create, edit, and delete decks and cards within them.',
@@ -55,7 +46,7 @@ export default function Portfolio() {
         {
             title: 'Taskmaster',
             site: 'https://taskmaster-rw.vercel.app',
-            gitHub: 'https://github.com/robbiemwoolf/taskmaster', 
+            github: 'https://github.com/robbiemwoolf/taskmaster', 
             img: 'images/taskmaster.png',
             alt: 'Taskmaster Home',
             description: `This is a personal task tracker app with the key feature being the ability to see what tasks you completed on a given day, week, or month. Many people tend to focus on what they didn't do, but this app celebrates how much you do accomplish.`,
@@ -64,7 +55,7 @@ export default function Portfolio() {
         {
             title: 'Twisty',
             site: 'https://twisty.vercel.app',
-            gitHub: 'https://github.com/robbiemwoolf/twisty', 
+            github: 'https://github.com/robbiemwoolf/twisty', 
             img: 'images/twisty.png',
             alt: 'Twisty screenshot',
             description: `A simple spinner application meant to be used with the classic Twister play mat. I used an infinite animation loop that upon clicking the spinner a random CSS class is chosen and added to the targeted element in order to stop the animation, display a color, and display a body part. After two and half seconds has elapsed the CSS class will be removed and the animation will restart.`,
