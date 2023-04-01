@@ -2,44 +2,27 @@
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    animation: scroll 10s reverse linear 1;
+    animation: scroll 10s reverse linear;
     margin-bottom: 30px;
 }
 
 .tech-logo {
     height: 35px;
-    width: 35px;
-    border-radius: 5%;
-    animation: glow 1.5s infinite alternate;
+}
+
+.row {
+    display: block;
+    align-content: center;
+}
+
+.small {
+    width: 100%;
+    text-align: center;
+    color: rgb(125, 125, 125);
+    font-size: 12px;
 }
 
 @keyframes scroll {
     from   { transform: translate(0%); }
     to { transform: translate(80%); }
-}
-
-.tech-logo:hover {
-    animation: none;
-}
-
-@keyframes glow {
-    100% {
-      box-shadow:
-      0 0 2px #fff,
-      0 0 6px #fff,
-      0 0 10px rgb(239, 249, 91),
-      0 0 20px rgb(72, 86, 18),
-      0 0 40px rgb(70, 79, 37),
-      0 0 45px rgb(70, 79, 37)     
-    }
-    
-    0% {
-      box-shadow:
-      0 0 1px #fff,
-      0 0 2px #fff,
-      0 0 3px rgb(239, 249, 91),
-      0 0 5px rgb(72, 86, 18),
-      0 0 22px rgb(70, 79, 37),
-      0 0 27px rgb(70, 79, 37)    
-    }
 }

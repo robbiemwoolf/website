@@ -2,16 +2,16 @@ import './Tech.css';
 
 export default function Train() {
 
-    const js = <img src='images/tech-logos/JavaScript-logo.png' className='tech-logo glow' alt='JavaScript' ></img>
-    const react = <img src='images/tech-logos/react-logo.png' className='tech-logo' alt='React' ></img>
-    const node = <img src='images/tech-logos/node-logo.png' className='tech-logo' alt='NodeJS' ></img>
-    const express = <img src='images/tech-logos/express-logo.png' className='tech-logo' alt='Express' ></img>
-    const npm = <img src='images/tech-logos/npm-logo.png' className='tech-logo' alt='npm' ></img>
-    const postgreSQL = <img src='images/tech-logos/postgreSQL-logo.png' className='tech-logo' alt='PostgreSQL' ></img>
-    const git = <img src='images/tech-logos/git-logo.png' className='tech-logo' alt='Git' ></img>
-    const jQuery = <img src='images/tech-logos/jQuery-logo.png' className='tech-logo' alt='jQuery' ></img>
-    const HTML = <img src='images/tech-logos/html-logo.png' className='tech-logo' alt='HTML' ></img>
-    const CSS = <img src='images/tech-logos/css-logo.jpg' className='tech-logo' alt='CSS' ></img>
+    const js = <div className='row'><img src='images/tech-logos/JavaScript-logo.svg' className='tech-logo' alt='JavaScript' ></img><div className='small'>JavaScript</div></div>
+    const react = <div className='row'><img src='images/tech-logos/react-logo.svg' className='tech-logo' alt='React' ></img><div className='small'>React</div></div>
+    const node = <div className='row'><img src='images/tech-logos/node-logo.svg' className='tech-logo' alt='NodeJS' ></img><div className='small'>JNode</div></div>
+    const figma = <div className='row'><img src='images/tech-logos/figma-logo.svg' className='tech-logo' alt='Figma' ></img><div className='small'>Figma</div></div>
+    const npm = <div className='row'><img src='images/tech-logos/npm-logo.svg' className='tech-logo' alt='npm' ></img><div className='small'>npm</div></div>
+    const postgreSQL = <div className='row'><img src='images/tech-logos/postgreSQL-logo.svg' className='tech-logo' alt='PostgreSQL' ></img><div className='small'>PostgreSQL</div></div>
+    const git = <div className='row'><img src='images/tech-logos/git-logo.svg' className='tech-logo' alt='Git' ></img><div className='small'>Git</div></div>
+    const jQuery = <div className='row'><img src='images/tech-logos/jQuery-logo.svg' className='tech-logo' alt='jQuery' ></img><div className='small'>jQuery</div></div>
+    const HTML = <div className='row'><img src='images/tech-logos/html-logo.svg' className='tech-logo' alt='HTML' ></img><div className='small'>HTML</div></div>
+    const CSS = <div className='row'><img src='images/tech-logos/css-logo.svg' className='tech-logo' alt='CSS' ></img><div className='small'>CSS</div></div>
 
 
     return (
@@ -20,12 +20,12 @@ export default function Train() {
             {CSS}
             {react}
             {node}
-            {express}
             {npm}
             {postgreSQL}
             {git}
             {jQuery}
             {HTML}
+            {figma}
         </div>
     )
 }
