@@ -2,7 +2,7 @@ import './Tech.css';
 
 export default function Train() {
 
-    const js = <div className='row'><img src='images/tech-logos/JavaScript-logo.svg' className='tech-logo' alt='JavaScript' ></img><div className='small'>JavaScript</div></div>
+    const js = <div className='row'><img src='images/tech-logos/javascript-logo.png' className='tech-logo' alt='JavaScript' ></img><div className='small'>JavaScript</div></div>
     const react = <div className='row'><img src='images/tech-logos/react-logo.svg' className='tech-logo' alt='React' ></img><div className='small'>React</div></div>
     const node = <div className='row'><img src='images/tech-logos/node-logo.svg' className='tech-logo' alt='NodeJS' ></img><div className='small'>JNode</div></div>
     const figma = <div className='row'><img src='images/tech-logos/figma-logo.svg' className='tech-logo' alt='Figma' ></img><div className='small'>Figma</div></div>
