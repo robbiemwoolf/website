@@ -10,6 +10,11 @@
     height: 35px;
 }
 
+.adjust {
+    width: 80%;
+    margin-left: 10%;
+}
+
 .row {
     display: block;
     align-content: center;
