@@ -1,0 +1,41 @@
+.contact {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    width: 100%;
+}
+
+.form-group {
+    width: 100%;
+    margin: 1rem 0;
+    background-color: black;
+    color: white;
+}
+
+input {
+    width: 100%;
+    border-radius: 5%;
+    background-color: black;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5%;
+    background-color: black;
+}
+
+button {
+    color: whitesmoke;
+    border-radius: 10%;
+    background-color: rgb(25, 25, 25);
+    width: 20%;
+    min-height: 40px;
+}
