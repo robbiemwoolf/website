@@ -4,7 +4,7 @@ export default function Train() {
 
     const js = <div className='row'><img src='images/tech-logos/javascript-logo.png' className='tech-logo adjust' alt='JavaScript' ></img><div className='small'>JavaScript</div></div>
     const react = <div className='row'><img src='images/tech-logos/react-logo.svg' className='tech-logo' alt='React' ></img><div className='small'>React</div></div>
-    const node = <div className='row'><img src='images/tech-logos/node-logo.svg' className='tech-logo' alt='NodeJS' ></img><div className='small'>JNode</div></div>
+    const node = <div className='row'><img src='images/tech-logos/node-logo.svg' className='tech-logo' alt='NodeJS' ></img><div className='small'>Node</div></div>
     const figma = <div className='row'><img src='images/tech-logos/figma-logo.svg' className='tech-logo' alt='Figma' ></img><div className='small'>Figma</div></div>
     const npm = <div className='row'><img src='images/tech-logos/npm-logo.svg' className='tech-logo' alt='npm' ></img><div className='small'>npm</div></div>
     const postgreSQL = <div className='row'><img src='images/tech-logos/postgresql-logo.png' className='tech-logo adjust' alt='PostgreSQL' ></img><div className='small'>PostgreSQL</div></div>
