@@ -19,10 +19,10 @@ export default function ProjectCard({ card }) {
             </div>
             <div className='info'>
                 <p className='text'>{card.description}</p>
-                { tools.length > 0 ? (
+            </div>
+            { tools.length > 0 ? (
                 <small className='tech'>{card.tools}</small>
                 ) : null }
-            </div>
         </div>
         </>
     )
