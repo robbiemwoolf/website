@@ -27,9 +27,16 @@
         url("./fonts/AGoblinAppears-o2aV.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "moonl";
+    src: local("Moon Light"),
+        url("./fonts/Moon Light.otf") format("opentype");
+}
+
 body {
     background: #000000;
     overflow-x: hidden;
+    font-family: 'Consolas', 'Courier New', 'monospace';
 }
 
 header {
