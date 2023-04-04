@@ -96,7 +96,7 @@
     height: 47svh;
 }
 
-.small-bytes .text {
+.small-bytes .description {
     background-color: rgba(0, 0, 0, .3);
     border-radius: 5%;
     position: absolute;

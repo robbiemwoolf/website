@@ -18,7 +18,7 @@ export default function ProjectCard({ card }) {
                 <img className='screenshot' src={card.img} alt={card.alt} />
             </div>
             <div className='info'>
-                <p className='text'>{card.description}</p>
+                <p className='description'>{card.description}</p>
             </div>
             { tools.length > 0 ? (
                 <small className='tech'>{card.tools}</small>
