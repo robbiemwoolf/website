@@ -11,7 +11,7 @@ export default function Portfolio() {
             img: 'images/reservation.png',
             alt: 'GrubDash Home',
             description: 'Full-stack application for restaurant personnel to create, update, view, and delete reservations, as well as seat them at various tables within the restaurant.',
-            tools: 'Node | React | Express | Knex | Postgres | Bootstrap5 | JS | HTML | CSS | RESTful API'
+            tools: 'Node | React | Express | PostgreSQL | JS | RESTful API | CSS'
         },
         // {
         //     title: 'We Love Movies',
@@ -50,7 +50,7 @@ export default function Portfolio() {
             img: 'images/taskmaster.png',
             alt: 'Taskmaster Home',
             description: `This is a personal task tracker app with the key feature being the ability to see what tasks you completed on a given day, week, or month. Many people tend to focus on what they didn't do, but this app celebrates how much you do accomplish.`,
-            tools: 'JS | React | Express | Knex | Bootstrap | CSS'
+            tools: 'JS | React | Express | Knex | CSS'
         },
         {
             title: 'Twisty',
