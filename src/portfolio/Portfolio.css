@@ -93,7 +93,7 @@
 }
 
 .info {
-    height: 45svh;
+    height: 47svh;
 }
 
 .small-bytes .text {
@@ -109,7 +109,7 @@
     align-self: last baseline;
     font-size: 10px;
     color: var(--tertiary);
-    height: 5svh;
+    height: 3svh;
 }
 
 @keyframes rotation {
