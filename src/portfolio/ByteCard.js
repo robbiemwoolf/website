@@ -9,12 +9,10 @@ export default function ByteCard({ card }) {
         <div className='card'>
             <div className='head'>
                 { live.length > 0 ? (
-              <a className='link-light' href={card.site} title='Live Site'><i className='bi bi-eye'></i></a>
+                    <a href={card.site} title='Live Site'><img className='link link-byte' src='images/openWindow.png' alt='Open Live Site' /></a>
                 ) : null }
                 <h4 className='title'>{card.title}</h4>
-                <a className='link-light' href={card.github} title='GitHub Repository'>
-                    <i className='bi bi-github'></i>
-                </a>
+                <a href={card.github} title='GitHub Repository'><img className='link link-byte' src='images/gitHub.png' alt='Open GitHub Repo' /></a>
             </div>
             <div className='info'>
                 <p className='text'>
