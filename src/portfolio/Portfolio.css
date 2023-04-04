@@ -42,6 +42,11 @@
     filter: blur(.75rem);
 }
 
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
 .projects {
     width: 60%;
     margin-right: 5%;
@@ -72,8 +77,13 @@
     color: green;
 }
 
-.link-light {
-    margin: 5px;
+.resize {
+    width: 50px;
+    height: 50px;
+}
+
+i {
+    width: 100%;
 }
 
 .info {

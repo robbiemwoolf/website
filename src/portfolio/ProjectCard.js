@@ -8,10 +8,10 @@ export default function ProjectCard({ card }) {
         <>
         <div className='card'>
             <div className='head'>
-                <h4 className='title'>{card.title}</h4>
                 { live.length > 0 ? (
                 <a className='link-light' href={card.site} title='Live Site'><i className='bi bi-eye'></i></a>
                 ) : null }
+                <h4 className='title'>{card.title}</h4>
                 <a className='link-light' href={card.github} title='GitHub Repository'><i className='bi bi-github'></i></a>
             </div>
             <div className='filter'>
