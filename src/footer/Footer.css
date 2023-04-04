@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-    color: yellow;
+    color: var(--clr-6);
 }
 
 .name {
