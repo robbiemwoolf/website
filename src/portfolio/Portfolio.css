@@ -29,11 +29,11 @@
     z-index: -1;
     background: conic-gradient(
         from var(--gradient-angle),
-        var(--clr-3),
-        var(--clr-4),
-        var(--clr-5),
-        var(--clr-4),
-        var(--clr-3));
+        var(--dark),
+        var(--mid),
+        var(--bright),
+        var(--mid),
+        var(--dark));
     border-radius: inherit;
     animation: rotation 12s linear infinite;
 }
@@ -51,7 +51,7 @@
 
 .title {
     margin: auto;
-    color: var(--clr-6)
+    color: var(--secondary)
 }
 
 .link {
@@ -108,7 +108,7 @@
 .tech {
     align-self: last baseline;
     font-size: 10px;
-    color: var(--clr-7);
+    color: var(--tertiary);
     height: 5svh;
 }
 

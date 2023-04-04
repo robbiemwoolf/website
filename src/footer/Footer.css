@@ -11,12 +11,12 @@ a {
 }
 
 a:hover {
-    color: var(--clr-6);
+    color: var(--secondary);
 }
 
 .name {
     font-family: "astro", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: green;
+    color: var(--main);
     font-size: 120px;
     margin: -10px 15px 0px 5px;
 }

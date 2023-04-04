@@ -5,6 +5,6 @@
 .name {
     margin: auto;
     font-family: "astro", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: green;
+    color: var(--main);
     font-size: 700%;
 }

@@ -13,11 +13,10 @@
     display: grid;
     grid-template-columns: [left] 10% [mid] 80% [right] 10%;
     width: 50%;
-    border: solid 1px green;
     margin: 2.5%;
     border-radius: 1%;
     min-height: 300px;
-    background-color: rgb(236, 255, 236);
+    background-color: var(--light);
 }
 
 .ledge, .redge {
@@ -36,19 +35,18 @@
     font-size: 90%;
     text-align: center;
     padding-top: 10px;
-    color: black;
+    color: var(--dark);
 }
 
 .mid .body {
     color: black;
 }
 .hole {
-    background-color: black;;
+    background-color: black;
     z-index: 2;
     margin-inline: auto;
     width: 12px;
     height: 12px;
-    border: solid 1px black;
     border-radius: 50%;
 }
 
@@ -58,7 +56,7 @@
 
 .current {
     color: black;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px rgb(135, 155, 135);
 }
 
 .mid .body {
@@ -70,6 +68,7 @@
     justify-content: flex-end;
     width:50%;
     margin: 15px;
+    margin-top: 25px;
 }
 
 .photo {
@@ -77,15 +76,17 @@
     border-radius: 40%;
     float: right;
     animation: glow 1.5s infinite alternate;
+    margin-bottom: 5px;
 }
 
 .resume {
-    color: rgb(132, 201, 132);
+    color: var(--spotlight);
     text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 .resume:hover {
-    color: white;
+    color: var(--secondary);
 }
 
 .look {
@@ -96,7 +97,7 @@
 }
 
 .spotlight {
-    color: rgb(132, 201, 132);
+    color: var(--spotlight);
 }
 
 @keyframes glow {
@@ -104,20 +105,18 @@
       box-shadow:
       0 0 2px #fff,
       0 0 6px #fff,
-      0 0 10px rgb(84, 179, 26),
-      0 0 20px rgb(72, 86, 18),
-      0 0 40px rgb(70, 79, 37),
-      0 0 45px rgb(70, 79, 37)     
+      0 0 10px var(--secondary),
+      0 0 20px var(--main),
+      0 0 40px var(--dark)     
     }
     
     0% {
       box-shadow:
       0 0 1px #fff,
       0 0 2px #fff,
-      0 0 3px rgb(84, 179, 26),
-      0 0 5px rgb(72, 86, 18),
-      0 0 22px rgb(70, 79, 37),
-      0 0 27px rgb(70, 79, 37)    
+      0 0 3px var(--secondary),
+      0 0 5px var(--main),
+      0 0 22px var(--dark)    
     }
 }
 
