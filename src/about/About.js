@@ -67,7 +67,7 @@ export default function About() {
                     <div className='body'>
                         <p>And I am a full stack web developer specializing in <span className='spotlight'>JavaScript</span>, <span className='spotlight'>React</span>, <span className='spotlight'>Node</span>, and <span className='spotlight'>CSS</span>. I have a passion for learning and increase these skills daily.</p>
                         <p>I offer a <span className='spotlight'>fresh perspective</span>! Outside of my technical competencies, my prior welding career gave me experience with detail-oriented builds, keeping client satisfaction a top priority, and managing large-scale projects with tight deadlines.</p>
-                        <p>As an advocate for interpersonal community building and awesome websites, I would love to help you with your next project. <span className='resume' alt='Resume' onClick={handleClick} title='Resume'>Reach out!</span></p>
+                        <p>As an advocate for interpersonal community building and awesome websites, I would love to help you with your next project. <span className='resume' alt='Resume' onClick={handleClick} title='Resume'>Reach out</span>!</p>
                     </div>
                 </div>
             </div>
