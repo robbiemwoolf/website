@@ -5,7 +5,7 @@ export default function Portfolio() {
 
     const projects = [
         { 
-            title: 'Restaurant Reservation System',
+            title: 'Reservation System',
             site: 'https://restaurant-reservatoin-rw-client.onrender.com',
             github: 'https://github.com/robbiemwoolf/restaurant-reservation',
             img: 'images/reservation.png',
