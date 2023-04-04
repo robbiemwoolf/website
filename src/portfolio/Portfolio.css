@@ -14,7 +14,7 @@
 .card {
     color: grey;
     height: 60svh;
-    background: var(--clr-1);
+    background: black;
     border-radius: 0.5rem;
     position: relative;
     padding: 2.5%;
@@ -46,7 +46,7 @@
     margin: 0px 5px;
     display: flex;
     justify-content: space-between;
-    min-height: 50px;
+    height: 10svh;
 }
 
 .title {
@@ -93,7 +93,7 @@
 }
 
 .info {
-    margin-top: 10px;
+    height: 45svh;
 }
 
 .small-bytes .text {
@@ -102,12 +102,14 @@
     position: absolute;
     z-index: 2;
     padding: 10px;
-    font-size: clamp(.8rem, 2vw, .9rem);
+    font-size: clamp(.7rem, 2vw, .8rem);
 }
 
 .tech {
+    align-self: last baseline;
     font-size: 10px;
-    color: var(--clr-7)
+    color: var(--clr-7);
+    height: 5svh;
 }
 
 @keyframes rotation {
