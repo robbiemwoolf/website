@@ -20,6 +20,9 @@ export default function ByteCard({ card }) {
                 </p>
                 <img className='peak' src={card.img} alt={card.alt} />
             </div>
+            { tools.length > 0 ? (
+                <small className='tech'>{card.tools}</small>
+                ) : null }
         </div>
         </>
     )
