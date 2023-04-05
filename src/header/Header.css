@@ -1,9 +1,9 @@
-.container {
+.header {
     display: flex;
+    justify-content: center;
 }
 
-.name {
-    margin: auto;
+h1 {
     font-family: "astro", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--main);
     font-size: 700%;
