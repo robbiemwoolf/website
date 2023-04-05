@@ -17,7 +17,7 @@ label {
     width: 100%;
     margin: 1rem 0;
     background-color: black;
-    color: white;
+    color: whitesmoke;
 }
 
 input {
@@ -38,4 +38,9 @@ button {
     background-color: rgb(25, 25, 25);
     width: 20%;
     min-height: 40px;
+}
+
+.confirmation {
+    width: 50%;
+    margin: 10px auto;
 }

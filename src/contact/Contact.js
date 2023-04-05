@@ -49,6 +49,10 @@ export default function Contact() {
         </form>
     )
 
+    const confirmation = (
+        <p className='confirmation'>Thanks for reaching out! You can expect a reply back within 1 - 2 business days.</p>
+    )
+
     const [body, setBody] = useState(form)
 
     return (
@@ -56,9 +60,9 @@ export default function Contact() {
             <header>Contact</header>
             <div className='body'>
                 {body}
-                <button type="submit" onSubmit={()=>{
+                <button type="submit" onClick={()=>{
                     toggleButton()
-                    setBody(<p>Thank you! You can expect a reply back within 1 - 2 business days.</p>)
+                    setBody(confirmation)
                 }}>Send</button>
             </div>
         </div>
