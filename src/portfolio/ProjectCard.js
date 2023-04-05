@@ -2,27 +2,50 @@ import './Portfolio.css'
 
 export default function ProjectCard({ card }) {
     const live = card.site;
+    const github = card.github
     const tools = card.tools;
+
+    const openLive = () => {
+        const win = window.open(live, '_blank')
+        if (win) {
+            // browser has allowed it to be opened
+            win.focus()
+        } else {
+            // browser has blocked it
+            alert('Please allow popups for this website')
+        }
+    }
+
+    const openGitHub = () => {
+        const win = window.open(github, '_blank')
+        if (win) {
+            // browser has allowed it to be opened
+            win.focus()
+        } else {
+            // browser has blocked it
+            alert('Please allow popups for this website')
+        }
+    }
 
     return (
         <>
         <div className='card'>
             <div className='head'>
-                <h4 className='title'>{card.title}</h4>
                 { live.length > 0 ? (
-                <a className='link-light' href={card.site} title='Live Site'><i className='bi bi-eye'></i></a>
+                <img className='link' src='images/openWindow.png' alt='Open Live Site' onClick={openLive} />
                 ) : null }
-                <a className='link-light' href={card.github} title='GitHub Repository'><i className='bi bi-github'></i></a>
+                <h4 className='title'>{card.title}</h4>
+                <img className='link' src='images/gitHub.png' alt='Open GitHub Repo' onClick={openGitHub} />
             </div>
             <div className='filter'>
                 <img className='screenshot' src={card.img} alt={card.alt} />
             </div>
             <div className='info'>
-                <p className='text'>{card.description}</p>
-                { tools.length > 0 ? (
+                <p className='description'>{card.description}</p>
+            </div>
+            { tools.length > 0 ? (
                 <small className='tech'>{card.tools}</small>
                 ) : null }
-            </div>
         </div>
         </>
     )

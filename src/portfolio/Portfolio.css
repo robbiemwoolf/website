@@ -14,7 +14,7 @@
 .card {
     color: grey;
     height: 60svh;
-    background: var(--clr-1);
+    background: black;
     border-radius: 0.5rem;
     position: relative;
     padding: 2.5%;
@@ -25,21 +25,49 @@
     content: "";
     position: absolute;
     margin: 5vh;
-    inset: -2.5rem;
+    inset: -2.2rem;
     z-index: -1;
     background: conic-gradient(
         from var(--gradient-angle),
-        var(--clr-3),
-        var(--clr-4),
-        var(--clr-5),
-        var(--clr-4),
-        var(--clr-3));
+        var(--dark),
+        var(--mid),
+        var(--bright),
+        var(--mid),
+        var(--dark));
     border-radius: inherit;
     animation: rotation 12s linear infinite;
 }
 
 .card::after {
-    filter: blur(.75rem);
+    filter: blur(.5rem);
+}
+
+.head {
+    margin: 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 10svh;
+}
+
+.title {
+    margin: auto;
+    color: var(--secondary)
+}
+
+.link {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.link:hover {
+    filter: invert(75%);
+}
+
+.link-byte {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
 }
 
 .projects {
@@ -52,7 +80,7 @@
 }
 
 .small-bytes .card::after {
-    animation: rotation 10s reverse linear infinite;
+    animation: rotation 8s reverse linear infinite;
 }
 
 .peak {
@@ -64,34 +92,24 @@
     opacity: 30%;
 }
 
-.title {
-    color: var(--clr-6)
-}
-
-.bi:hover {
-    color: green;
-}
-
-.link-light {
-    margin: 5px;
-}
-
 .info {
-    margin-top: 10px;
+    height: 47svh;
 }
 
-.small-bytes .text {
+.small-bytes .description {
     background-color: rgba(0, 0, 0, .3);
     border-radius: 5%;
     position: absolute;
     z-index: 2;
     padding: 10px;
-    font-size: clamp(.8rem, 2vw, 1.25rem);
+    font-size: clamp(.7rem, 2vw, .8rem);
 }
 
 .tech {
-    font-size: .7rem;
-    color: var(--clr-7)
+    align-self: last baseline;
+    font-size: 10px;
+    color: var(--tertiary);
+    height: 3svh;
 }
 
 @keyframes rotation {

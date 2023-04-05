@@ -1,11 +1,12 @@
 :root {
-    --clr-1: #060906;
-    --clr-2: #383807;
-    --clr-3: rgb(2, 104, 2);
-    --clr-4: rgb(153, 211, 29);
-    --clr-5: rgb(245, 236, 68);
-    --clr-6: rgb(143, 140, 42);
-    --clr-7: rgb(227, 227, 189);
+    --spotlight: rgb(132, 201, 132);
+    --light: rgb(235, 255, 235);
+    --dark: rgb(0, 65, 0);
+    --main: green;
+    --mid: rgb(84, 179, 26);
+    --bright: rgb(132, 204, 44);
+    --secondary: rgb(143, 140, 42);
+    --tertiary: rgb(227, 227, 189);
 }
 
 @font-face {
@@ -27,13 +28,20 @@
         url("./fonts/AGoblinAppears-o2aV.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "moonl";
+    src: local("Moon Light"),
+        url("./fonts/Moon Light.otf") format("opentype");
+}
+
 body {
     background: #000000;
     overflow-x: hidden;
+    font-family: 'Consolas', 'Courier New', 'monospace';
 }
 
 header {
-    color: green;
+    color: var(--main);
     font-family: "digital";
     font-size: 150%;
 }

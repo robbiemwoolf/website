@@ -2,16 +2,16 @@ import './Tech.css';
 
 export default function Train() {
 
-    const js = <div className='row'><img src='images/tech-logos/javascript-logo.png' className='tech-logo adjust' alt='JavaScript' ></img><div className='small'>JavaScript</div></div>
-    const react = <div className='row'><img src='images/tech-logos/react-logo.svg' className='tech-logo' alt='React' ></img><div className='small'>React</div></div>
-    const node = <div className='row'><img src='images/tech-logos/node-logo.svg' className='tech-logo' alt='NodeJS' ></img><div className='small'>JNode</div></div>
-    const figma = <div className='row'><img src='images/tech-logos/figma-logo.svg' className='tech-logo' alt='Figma' ></img><div className='small'>Figma</div></div>
-    const npm = <div className='row'><img src='images/tech-logos/npm-logo.svg' className='tech-logo' alt='npm' ></img><div className='small'>npm</div></div>
-    const postgreSQL = <div className='row'><img src='images/tech-logos/postgresql-logo.png' className='tech-logo adjust' alt='PostgreSQL' ></img><div className='small'>PostgreSQL</div></div>
-    const git = <div className='row'><img src='images/tech-logos/git-logo.svg' className='tech-logo' alt='Git' ></img><div className='small'>Git</div></div>
-    const jQuery = <div className='row'><img src='images/tech-logos/jquery-logo.png' className='tech-logo' alt='jQuery' ></img><div className='small'>jQuery</div></div>
-    const HTML = <div className='row'><img src='images/tech-logos/html-logo.svg' className='tech-logo' alt='HTML' ></img><div className='small'>HTML</div></div>
-    const CSS = <div className='row'><img src='images/tech-logos/css-logo.svg' className='tech-logo' alt='CSS' ></img><div className='small'>CSS</div></div>
+    const js = <div className='tech'><img src='images/tech-logos/javascript-logo.png' className='size' alt='JavaScript' ></img><div className='text adjust'>JavaScript</div></div>
+    const react = <div className='tech'><img src='images/tech-logos/react-logo.svg' alt='React' ></img><div className='text'>React</div></div>
+    const node = <div className='tech'><img src='images/tech-logos/node-logo.svg' alt='NodeJS' ></img><div className='text'>Node</div></div>
+    const figma = <div className='tech'><img src='images/tech-logos/figma-logo.svg' alt='Figma' ></img><div className='text'>Figma</div></div>
+    const npm = <div className='tech'><img src='images/tech-logos/npm-logo.svg' alt='npm' ></img><div className='text'>npm</div></div>
+    const postgreSQL = <div className='tech'><img src='images/tech-logos/postgresql-logo.png' className='size' alt='PostgreSQL' ></img><div className='text adjust'>PostgreSQL</div></div>
+    const git = <div className='tech'><img src='images/tech-logos/git-logo.svg' alt='Git' ></img><div className='text'>Git</div></div>
+    const jQuery = <div className='tech'><img src='images/tech-logos/jquery-logo.png' alt='jQuery'></img><div className='text'>jQuery</div></div>
+    const HTML = <div className='tech'><img src='images/tech-logos/html-logo.svg' alt='HTML' ></img><div className='text'>HTML</div></div>
+    const CSS = <div className='tech'><img src='images/tech-logos/css-logo.svg' alt='CSS' ></img><div className='text'>CSS</div></div>
 
 
     return (
