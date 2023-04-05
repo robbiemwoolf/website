@@ -1,16 +1,17 @@
-.container {
+.footer {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-a {
+.profile {
     color: gray;
+    text-decoration: underline;
     text-underline-offset: 5px;
     font-family: 'moonl', 'Consolas', 'Courier New', 'monospace';
 }
 
-a:hover {
+.profile:hover {
     color: var(--secondary);
 }
 
@@ -19,4 +20,5 @@ a:hover {
     color: var(--main);
     font-size: 120px;
     margin: -10px 15px 0px 5px;
+    text-decoration: none;
 }
