@@ -1,9 +1,11 @@
 import './Header.css'
+import Menu from './Menu'
 
-export default function Header() {    
+export default function Header() {  
     return (
             <div className='header'>
-                <h1>Woolf</h1>
+                <div className='container'><h1>Woolf</h1></div>
+                <Menu />               
             </div>
     )
 }
