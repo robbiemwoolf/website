@@ -17,6 +17,7 @@ export default function Contact() {
                         id="name"
                         placeholder="Your Name"
                         name="name"
+                        required
                         value={name}
                         onChange={(e)=>setName(e.target.value)}
                     />
@@ -29,6 +30,7 @@ export default function Contact() {
                         id="email"
                         placeholder="Your Email"
                         name="email"
+                        required
                         value={email}
                         onChange={(e)=>setEmail(e.target.value)}
                     />
@@ -41,6 +43,7 @@ export default function Contact() {
                         id="message"
                         placeholder="Your Message"
                         name="message"
+                        required
                         value={message}
                         onChange={(e)=>setMessage(e.target.value)}
                     />
@@ -53,14 +56,17 @@ export default function Contact() {
         <p className='confirmation'>Thanks for reaching out! You can expect a reply back within 1 - 2 business days.</p>
     )
 
-    const [body, setBody] = useState(form)
+    // eslint-disable-next-line no-unused-vars
+    const [_body, setBody] = useState(form)
+
+    // const emailToMe = `Name: ` + name + `<br /> email: ` + email + `<br /> message: ` + message
 
     return (
         <div className='contact'>
             <header>Contact</header>
             <div className='body'>
-                {body}
-                <button type="submit" className={hidden ? 'hidden' : 'null'} onClick={()=>{
+                {hidden ? confirmation : form }
+                <button id='btn' type="submit" className={hidden ? 'hidden' : 'null'} onClick={()=>{
                     toggle()
                     setBody(confirmation)
                 }}>Send</button>
