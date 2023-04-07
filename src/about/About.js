@@ -60,7 +60,7 @@ export default function About() {
                     <div className='hole'></div>
                 </div>
             </div>
-            <div className='bio'>
+            <div className='bio' name='about' id='about'>
                 <img src='images/gry_rob_sqr_bird_feet_look_left.jpg' className='photo' alt='Robbie Woolf' />
                 <div className='about-body'>
                     <header>Hi. I’m Robbie</header>

@@ -73,7 +73,7 @@ export default function Portfolio() {
 
     return (
         <div className='portfolio'>
-            <div className='projects'>
+            <div className='projects' name='portfolio' id='portfolio' >
                 <header>Projects</header>
                 {projectCards}
             </div>

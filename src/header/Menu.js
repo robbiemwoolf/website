@@ -15,7 +15,7 @@ export default function Menu() {
             <nav className={isActive ? "hidden" : "navbar"}>
                 <ul className='nav-list'>
                     <li className='nav-item'>
-                        <a href='#home' className='nav-link'>Home</a>
+                        <a href='/' className='nav-link'>Home</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#about' className='nav-link'>About</a>
@@ -27,7 +27,7 @@ export default function Menu() {
                         <a href='#contact' className='nav-link'>Contact</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#resume' className='nav-link'>Resume</a>
+                        <a href='/resume' className='nav-link'>Resume</a>
                     </li>
                 </ul>
             </nav>
