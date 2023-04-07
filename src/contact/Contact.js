@@ -5,9 +5,9 @@ export default function Contact() {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
-    const [showButton, setShowButton] = useState(true)
+    const [hidden, setHidden] = useState(false)
 
-    const toggleButton = () => { setShowButton(!showButton) }
+    const toggle = () => { setHidden(!hidden) }
     const form = (
         <form>
             <div className='form-group'>
@@ -60,8 +60,8 @@ export default function Contact() {
             <header>Contact</header>
             <div className='body'>
                 {body}
-                <button type="submit" onClick={()=>{
-                    toggleButton()
+                <button type="submit" className={hidden ? 'hidden' : 'null'} onClick={()=>{
+                    toggle()
                     setBody(confirmation)
                 }}>Send</button>
             </div>
