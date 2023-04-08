@@ -1,5 +1,18 @@
+.resume-links {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .embed {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.btn {
+    border-radius: 7%;
+    background-color: var(--spotlight);
 }
