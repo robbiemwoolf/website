@@ -43,8 +43,12 @@ button {
 }
 
 .confirmation {
-    width: 50%;
+    color: var(--light);
+    width: 70%;
     margin: 10px auto;
+    background-color: rgb(0, 80, 0, .4);
+
+    border-radius: 5%;
 }
 
 .hidden {
