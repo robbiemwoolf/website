@@ -40,7 +40,11 @@ body {
     font-family: 'Consolas', 'Courier New', 'monospace';
 }
 
-header {
+.content {
+    padding-top: 135px;
+}
+
+header { 
     color: var(--main);
     font-family: "digital";
     font-size: 150%;

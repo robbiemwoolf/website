@@ -1,3 +1,11 @@
+.header {
+    position: relative;
+    background-color: black;
+    z-index: 100;
+    top: 0;
+    height: 135px;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -7,4 +15,10 @@ h1 {
     font-family: "astro", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--main);
     font-size: 700%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
 }
