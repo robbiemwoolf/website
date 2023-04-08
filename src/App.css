@@ -34,6 +34,10 @@
         url("./fonts/Moon Light.otf") format("opentype");
 }
 
+html {
+    scroll-padding-top: 135px;
+}
+
 body {
     background: #000000;
     overflow-x: hidden;
