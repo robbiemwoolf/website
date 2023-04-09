@@ -54,7 +54,7 @@ export default function Contact() {
     }
 
     return (
-        <div className='contact'>
+        <div className='contact' name='contact' id='contact'>
             <header>Contact</header>
             <div className='body'>
                 {status && confirmation()}
