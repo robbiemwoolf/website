@@ -4,18 +4,6 @@ export default function About() {
     const currentBlurb = "Right now I am focusing on a revamp of this personal website. A lot of changes have been made over the past week and I still have a long way to go. Here's a look at what this page use to look like:";
     const additionalBlurb = 'This new design includes: a more responsive layout; a chance to showcase more of my current projects, both large and small; and a few animations.';
     const look = <img className='look' src='/images/previous-website.png' alt='previous website design' ></img>;
-    
-    const handleClick = () => {
-        const link='https://docs.google.com/document/d/1-wGFZkW04AqZMVYcEb2viZ42Yt3O885TyAj4kvqacaw/edit?usp=sharing'
-        const win = window.open(link, '_blank')
-        if (win) {
-            // browser has allowed it to be opened
-            win.focus()
-        } else {
-            // browser has blocked it
-            alert('Please allow popups for this website')
-        }
-    }
 
     return (
         <div className='background' >
