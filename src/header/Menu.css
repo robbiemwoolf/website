@@ -44,7 +44,7 @@
 .navbar {
     z-index: 3;
     width: 200px;
-    height: 65svh;
+    height: 100svh;
     background-color: var(--spotlight);
     position: fixed;
     top: 5px;
