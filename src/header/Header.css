@@ -3,7 +3,7 @@
     background-color: black;
     z-index: 100;
     top: 0px;
-    height: 135px;
+    height: 100px;
 }
 
 .container {
@@ -35,5 +35,8 @@ h1 {
 @media only screen and (min-width: 600px) {
     .ctaHead {
         display: none;
+    }
+    .header {
+        height: 135px;
     }
 }
