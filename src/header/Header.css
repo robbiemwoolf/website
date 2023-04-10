@@ -14,9 +14,8 @@
 h1 {
     font-family: "astro", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--main);
-    font-size: 700%;
-    margin-top: -25px;
-    margin-bottom: -15px;
+    font-size: 600%;
+    margin-top: -12px;
 }
 
 .sticky {
@@ -28,8 +27,9 @@ h1 {
 .ctaHead {
     position: fixed;
     margin: 5px;
-    top: -37px;
+    top: 0px;
     left: 0px;
+    width: 40px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -38,5 +38,10 @@ h1 {
     }
     .header {
         height: 135px;
+    }
+    h1 {
+        font-size: 700%;
+        margin-top: -25px;
+        margin-bottom: -15px;
     }
 }
