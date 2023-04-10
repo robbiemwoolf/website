@@ -5,7 +5,6 @@ export default function Train() {
     const js = <div className='tech'><img src='images/tech-logos/javascript-logo.png' className='size' alt='JavaScript' ></img><div className='text adjust'>JavaScript</div></div>
     const react = <div className='tech'><img src='images/tech-logos/react-logo.svg' alt='React' ></img><div className='text'>React</div></div>
     const node = <div className='tech'><img src='images/tech-logos/node-logo.svg' alt='NodeJS' ></img><div className='text'>Node</div></div>
-    const figma = <div className='tech'><img src='images/tech-logos/figma-logo.svg' alt='Figma' ></img><div className='text'>Figma</div></div>
     const npm = <div className='tech'><img src='images/tech-logos/npm-logo.svg' alt='npm' ></img><div className='text'>npm</div></div>
     const postgreSQL = <div className='tech'><img src='images/tech-logos/postgresql-logo.png' className='size' alt='PostgreSQL' ></img><div className='text adjust'>PostgreSQL</div></div>
     const git = <div className='tech'><img src='images/tech-logos/git-logo.svg' alt='Git' ></img><div className='text'>Git</div></div>
@@ -25,7 +24,6 @@ export default function Train() {
             {git}
             {jQuery}
             {HTML}
-            {figma}
         </div>
     )
 }
