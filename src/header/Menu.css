@@ -29,12 +29,12 @@
 
 .hamburger.is-active::before {
     background: var(--dark);
-    transform: rotate(405deg) translate(5px, 10px);
+    transform: translate(5px, 10px) rotate(405deg);
 }
 
 .hamburger.is-active::after {
     background: var(--dark);
-    transform: rotate(-45deg) translate(4px, -9px);
+    transform: translate(4px, -9px) rotate(-45deg);
 }
 
 .hamburger.is-active .bar {
@@ -53,6 +53,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50% 0 0 50%;
+    animation: open 700ms ease-in-out;
 }
 
 .nav-list {
@@ -103,6 +104,24 @@
 .hidden {
     transition: .5s;
     display: none;
+}
+
+@keyframes open {
+    0% {
+        right: -200px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+@keyframes close {
+    0% {
+        right: 0px;
+    }
+    100% {
+        right: -200px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
