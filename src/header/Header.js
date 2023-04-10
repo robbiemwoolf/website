@@ -15,6 +15,7 @@ export default function Header() {
 
     return (
             <div className={(offset > 0) ? "header sticky" : "header"}>
+                <a href='#contact' alt='Send me a message!'><img className='ctaHead' alt='contact me' src='images/contactMe.svg'></img></a>
                 <div className='container'><h1>Woolf</h1></div>
                 <Menu />               
             </div>
