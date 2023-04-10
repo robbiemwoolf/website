@@ -44,7 +44,7 @@
 .navbar {
     z-index: 3;
     width: 200px;
-    height: 55svh;
+    height: 65svh;
     background-color: var(--spotlight);
     position: fixed;
     top: 5px;
@@ -52,7 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50% 0 0 50%;
+    border-radius: 30% 0 0 90%;
     animation: open 700ms ease-in-out;
 }
 
