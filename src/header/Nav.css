@@ -23,14 +23,13 @@ a:active {
 .linkD {
     color: var(--light);
     width: 100%;
-    background-color: rgb(132, 201, 132, .4);
+    background-color: rgb(132, 201, 132, .8);
     text-align: center;
     flex: column;
 }
 
 .linkD:hover {
-    background-color:rgb(132, 201, 132);
-    color: var(--dark);
+    background-color:rgb(132, 201, 132, .4);
 }
 
 @media only screen and (max-width: 600px) {
