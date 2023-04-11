@@ -31,3 +31,9 @@
     from   { transform: translate(0%); }
     to { transform: translate(80%); }
 }
+
+@media only screen and (max-width: 450px) {
+    .text {
+        display: none;
+    }
+}
