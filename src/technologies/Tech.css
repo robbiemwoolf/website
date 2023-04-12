@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    animation: scroll 10s reverse linear;
+    animation: scroll 7s reverse linear;
     margin-bottom: 30px;
 }
 
