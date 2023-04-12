@@ -1,3 +1,22 @@
+.downloadRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 7% 5% 3% 5%;
+}
+
+.res {
+    color: var(--spotlight);
+    border-style: solid;
+    text-decoration: none;
+    border-radius: 15%;
+    white-space: nowrap;
+    padding: 2px;
+}
+
+.res:hover {
+    color: var(--secondary);
+}
+
 .embed {
     width: 100%;
     display: flex;
