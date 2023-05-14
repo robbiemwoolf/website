@@ -52,6 +52,7 @@
 
 .body {
     color: whitesmoke;
+    line-height: 1.75em;
 }
 
 .current {
@@ -111,6 +112,31 @@
 
 .cta:hover {
     color: var(--secondary);
+}
+
+.alternative {
+    color: var(--spotlight);
+    border-style: solid;
+    text-decoration: none;
+    border-radius: 15%;
+    padding: 2px;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.blurb {
+    font-size: 77%;
+}
+
+.updateContainer {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.update {
+    font-size: 66%;
+    margin-right: 10px;
 }
 
 @keyframes glow {

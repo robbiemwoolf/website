@@ -1,9 +1,20 @@
+import { Link } from 'react-router-dom';
 import './About.css';
 
+// ! reserving for when I enable access to previous blurbs
+// const Blurbs = [
+//     { 
+//         "currentBlurb" : "Right now I am focusing on a revamp of this personal website. A lot of changes have been made over the past week and I still have a long way to go. Here's a look at what this page use to look like:",
+//         "additionalBlurb" : "This new design includes: a more responsive layout; a chance to showcase more of my current projects, both large and small; and a few animations.",
+//         "look" : <img className='look' src='/images/previous-website.png' alt='previous website design' ></img>
+//     }
+// ]
+
 export default function About() {
-    const currentBlurb = "Right now I am focusing on a revamp of this personal website. A lot of changes have been made over the past week and I still have a long way to go. Here's a look at what this page use to look like:";
-    const additionalBlurb = 'This new design includes: a more responsive layout; a chance to showcase more of my current projects, both large and small; and a few animations.';
-    const look = <img className='look' src='/images/previous-website.png' alt='previous website design' ></img>;
+    const currentBlurb = "  In effort to reconnect with past hobbies, I have been reading more. My partner and I have a collection that has continued to grow despite our reading slowing. Overwhelmed by the choices and wishing I didn't need to pull a book down just to be let down by the synopsis, I started developing Spine Chasers.";
+    const additionalBlurb = "This application allows the user to browse their library quickly. Seeing covers, descriptions, and ratings at a glance in the same way we browse shows and movies on Netflix. The user adds a book to their collection by providing the ISBN. Upon providing the ISBN, the server makes a request to Google's BookAPI to fill in the rest of the book's details. Once complete, the book is added to the application's Postgresql database.";
+    const look = '';
+    const alternative = <Link className='alternative' to='https://github.com/robbiemwoolf/spine-chasers'>Check it out here!</Link>
 
     return (
         <div className='background' >
@@ -26,11 +37,16 @@ export default function About() {
                 </div>
                 <div className='mid'>
                     <header>currently coding</header>
-                    <p className='body'>
+                    <p className='body blurb'>
                         {currentBlurb}
-                        {look}
+                        <br />
+                        {look ? look : alternative}
+                        <br />
                         {additionalBlurb}
                     </p>
+                    <div className='updateContainer'>
+                        <small className='update'>Last updated 05/13/2023</small>
+                    </div>
                 </div>
                 <div className='redge'>
                     <div className='hole'></div>
