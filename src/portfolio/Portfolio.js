@@ -65,9 +65,9 @@ export default function Portfolio() {
             title: 'Your Challenge',
             site: 'seven5hard.onrender.com',
             github: 'https://github.com/robbiemwoolf/yourchallenge',
-            img: '',//'images/yourchallenge.png',
+            img: 'images/yourchallenge.png',
             alt: 'your challenge screenshot',
-            description: 'A project meant to help track six daily rules as you increase your daily streak. This application is early in production and only include the default challenge rules set forth in Andy Frisella\'s 75 Hard Challenge. Soon there will be multiple challenge options as well as the ability to create and store custom challenges. Currently using the browser\'s local storage for state management.',
+            description: 'A project meant to help track six daily rules. Once all six are marked as complete the daily streak total can be increased. This application is early in production and only includes the default challenge rules set forth in Andy Frisella\'s 75 Hard Challenge. Soon there will be multiple challenge options as well as the ability to create and store custom challenges. Currently using the browser\'s local storage for state management.',
             tools: 'JS | Express | Knex | Jest'
         },
         {
