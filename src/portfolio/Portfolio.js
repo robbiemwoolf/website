@@ -10,7 +10,7 @@ export default function Portfolio() {
             github: 'https://github.com/robbiemwoolf/restaurant-reservation',
             img: 'images/reservation.png',
             alt: 'GrubDash Home',
-            description: 'Full-stack application for restaurant personnel to create, update, view, and delete reservations, as well as seat them at various tables within the restaurant.',
+            description: 'Fullstack JavaScript application for restaurant personnel to create, update, view, and delete reservations, as well as seat them at various tables within the restaurant.',
             tools: 'Node | React | Express | PostgreSQL | JS | RESTful API | CSS'
         },
         {
