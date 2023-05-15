@@ -91,10 +91,14 @@
 }
 
 .look {
-    opacity: 50%;
+    opacity: 90%;
     border-radius: 5%;
     margin: 10px 0;
     width: 100%;
+}
+
+.look:hover{
+    filter: drop-shadow(6px 6px 6px green);
 }
 
 .spotlight {

@@ -12,9 +12,8 @@ import './About.css';
 
 export default function About() {
     const currentBlurb = "  In effort to reconnect with past hobbies, I have been reading more. My partner and I have a collection that has continued to grow despite our reading slowing. Overwhelmed by the choices and wishing I didn't need to pull a book down just to be let down by the synopsis, I started developing Spine Chasers.";
-    const additionalBlurb = "This application allows the user to browse their library quickly. Seeing covers, descriptions, and ratings at a glance in the same way we browse shows and movies on Netflix. The user adds a book to their collection by providing the ISBN. Upon providing the ISBN, the server makes a request to Google's BookAPI to fill in the rest of the book's details. Once complete, the book is added to the application's Postgresql database.";
-    const look = '';
-    const alternative = <Link className='alternative' to='https://github.com/robbiemwoolf/spine-chasers'>Check it out here!</Link>
+    const additionalBlurb = "This application allows the user to browse their library quickly and search with filters. Seeing covers, descriptions, and ratings at a glance in the same way we browse shows and movies on Netflix. The user adds a book to their collection by providing the ISBN. Upon providing the ISBN, the server makes a request to Google's BookAPI to fill in the rest of the book's details. Once complete, the book is added to the application's Postgresql database.";
+    const look = <Link to='https://github.com/robbiemwoolf/spine-chasers'><img className='look' src='/images/spinechasers-server.png' alt='Screenshot of JSON response' ></img></Link> ;
 
     return (
         <div className='background' >
@@ -40,7 +39,7 @@ export default function About() {
                     <p className='body blurb'>
                         {currentBlurb}
                         <br />
-                        {look ? look : alternative}
+                        {look ? look : null}
                         <br />
                         {additionalBlurb}
                     </p>
